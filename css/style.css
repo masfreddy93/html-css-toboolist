@@ -24,18 +24,30 @@
 
 /* regole main */
 #main{
-    background-color: rgb(199, 181, 181);
+    background-color: rgb(239, 239, 239);
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
-
 
 #main .contenitore{
     background-color: white;
     padding-left: 5%;
 }
 
-#main .add{
+
+#main header{
+    margin-bottom: 2px;
+    padding: 15px;
+}
+
+#main a{
+    font-size: 11px;
+    padding: 5px;
     text-decoration: none;
-    border-radius: 10%;
+}
+
+.add{
+    border-radius: 15%;
 }
 
 #add1{
@@ -49,9 +61,50 @@
     border: 1px solid black;
 }
 
+/* regole liste */
+#contenitore-liste{
+    padding-top: 30px;
+}
+
+
+#main ul{
+    list-style-type: none;
+    padding-bottom: 30px;
+
+}
+
+#main ul a{
+    color: white;
+    border-radius: 45%;
+}
+
+.editorial{
+   background-color: rgb(81, 135, 227); 
+}
+
+.q1-goals{
+    background-color: blueviolet;
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website {
+    background-color: crimson;
+}
+
+.sales{
+    background-color: lightgreen;
+}
+
 
 /* regole di debug */
-  .debug *{
+  /* .debug *{
     border: 2px solid red;
     
 }
@@ -61,4 +114,4 @@
     /* border: 4px solid blue; */
 }  
 
-
+ */
