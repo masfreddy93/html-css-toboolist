@@ -1,6 +1,38 @@
+/* regole di reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: blue;
 }
+
+/* regole di layout */
+.contenitore{
+    margin:0 auto;
+    max-width: 800px;
+}
+
+/* regole header */
+#header{
+    height: 60px;
+}
+
+#header h1{
+    display: inline;
+    vertical-align: super;
+    height: 50px;
+} 
+
+
+
+/* regole di debug */
+ /* .debug *{
+    border: 2px solid red;
+    
+}
+
+.debug .contenitore{
+    background-color: aqua;
+    border: 4px solid blue;
+}  */
+
+
