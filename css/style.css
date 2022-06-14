@@ -7,19 +7,18 @@
 
 /* regole di layout */
 .contenitore{
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 800px;
 }
 
 /* regole header */
 #header{
-    height: 60px;
+    padding: 10px;
 }
 
 #header h1{
-    display: inline;
+    display: inline-block;
     vertical-align: super;
-    height: 50px;
 } 
 
 /* regole main */
